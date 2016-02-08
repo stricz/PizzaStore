@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5234503C1C62CC2300616655 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234503B1C62CC2300616655 /* PizzaModel.swift */; };
+		5234503E1C62F17600616655 /* Paso1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234503D1C62F17600616655 /* Paso1ViewController.swift */; };
+		5270E42D1C67DD3D001FBB5A /* Paso5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270E42C1C67DD3D001FBB5A /* Paso5ViewController.swift */; };
+		5287828E1C6710AD0083F2E6 /* Paso2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287828D1C6710AD0083F2E6 /* Paso2ViewController.swift */; };
+		528782901C6710C30083F2E6 /* Paso3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287828F1C6710C30083F2E6 /* Paso3ViewController.swift */; };
+		528782921C6710D20083F2E6 /* Paso4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528782911C6710D20083F2E6 /* Paso4ViewController.swift */; };
 		52E7DF581C6076DE0094C4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E7DF571C6076DE0094C4AA /* AppDelegate.swift */; };
 		52E7DF5A1C6076DE0094C4AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E7DF591C6076DE0094C4AA /* ViewController.swift */; };
 		52E7DF5D1C6076DE0094C4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E7DF5B1C6076DE0094C4AA /* Main.storyboard */; };
-		52E7DF5F1C6076DE0094C4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E7DF5E1C6076DE0094C4AA /* Assets.xcassets */; };
 		52E7DF621C6076DE0094C4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E7DF601C6076DE0094C4AA /* LaunchScreen.storyboard */; };
+		52E7DF6E1C60862E0094C4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E7DF6D1C60862E0094C4AA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5234503B1C62CC2300616655 /* PizzaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
+		5234503D1C62F17600616655 /* Paso1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso1ViewController.swift; sourceTree = "<group>"; };
+		5270E42C1C67DD3D001FBB5A /* Paso5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso5ViewController.swift; sourceTree = "<group>"; };
+		5287828D1C6710AD0083F2E6 /* Paso2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso2ViewController.swift; sourceTree = "<group>"; };
+		5287828F1C6710C30083F2E6 /* Paso3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso3ViewController.swift; sourceTree = "<group>"; };
+		528782911C6710D20083F2E6 /* Paso4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso4ViewController.swift; sourceTree = "<group>"; };
 		52E7DF541C6076DE0094C4AA /* PizzaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E7DF571C6076DE0094C4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E7DF591C6076DE0094C4AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52E7DF5C1C6076DE0094C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52E7DF5E1C6076DE0094C4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E7DF611C6076DE0094C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E7DF631C6076DE0094C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E7DF6D1C60862E0094C4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +66,16 @@
 		52E7DF561C6076DE0094C4AA /* PizzaStore */ = {
 			isa = PBXGroup;
 			children = (
+				52E7DF6D1C60862E0094C4AA /* Assets.xcassets */,
 				52E7DF571C6076DE0094C4AA /* AppDelegate.swift */,
 				52E7DF591C6076DE0094C4AA /* ViewController.swift */,
+				5234503D1C62F17600616655 /* Paso1ViewController.swift */,
+				5287828D1C6710AD0083F2E6 /* Paso2ViewController.swift */,
+				5287828F1C6710C30083F2E6 /* Paso3ViewController.swift */,
+				528782911C6710D20083F2E6 /* Paso4ViewController.swift */,
+				5270E42C1C67DD3D001FBB5A /* Paso5ViewController.swift */,
+				5234503B1C62CC2300616655 /* PizzaModel.swift */,
 				52E7DF5B1C6076DE0094C4AA /* Main.storyboard */,
-				52E7DF5E1C6076DE0094C4AA /* Assets.xcassets */,
 				52E7DF601C6076DE0094C4AA /* LaunchScreen.storyboard */,
 				52E7DF631C6076DE0094C4AA /* Info.plist */,
 			);
@@ -124,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E7DF621C6076DE0094C4AA /* LaunchScreen.storyboard in Resources */,
-				52E7DF5F1C6076DE0094C4AA /* Assets.xcassets in Resources */,
+				52E7DF6E1C60862E0094C4AA /* Assets.xcassets in Resources */,
 				52E7DF5D1C6076DE0094C4AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E7DF5A1C6076DE0094C4AA /* ViewController.swift in Sources */,
+				528782921C6710D20083F2E6 /* Paso4ViewController.swift in Sources */,
 				52E7DF581C6076DE0094C4AA /* AppDelegate.swift in Sources */,
+				5270E42D1C67DD3D001FBB5A /* Paso5ViewController.swift in Sources */,
+				5234503C1C62CC2300616655 /* PizzaModel.swift in Sources */,
+				5287828E1C6710AD0083F2E6 /* Paso2ViewController.swift in Sources */,
+				5234503E1C62F17600616655 /* Paso1ViewController.swift in Sources */,
+				528782901C6710C30083F2E6 /* Paso3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.striczlabs.PizzaStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -263,6 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.striczlabs.PizzaStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -285,6 +311,7 @@
 				52E7DF681C6076DE0094C4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
